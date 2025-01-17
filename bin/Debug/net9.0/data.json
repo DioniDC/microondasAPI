@@ -1,0 +1,50 @@
+{
+  "Presets": [
+    {
+      "Id": 1,
+      "Nome": "Pipoca",
+      "Tempo": 180,
+      "Potencia": 5,
+      "Strings": "#",
+      "Instrucao": "Observar o barulho de estouros do milho...",
+      "Alimento": "Pipoca (de micro-ondas)"
+    },
+    {
+      "Id": 2,
+      "Nome": "Leite",
+      "Tempo": 300,
+      "Potencia": 5,
+      "Strings": "@",
+      "Instrucao": "Cuidado com aquecimento de l\u00EDquidos...",
+      "Alimento": "Leite"
+    },
+    {
+      "Id": 3,
+      "Nome": "Carne de boi",
+      "Tempo": 240,
+      "Potencia": 4,
+      "Strings": "!",
+      "Instrucao": "Interrompa o processo na metade...",
+      "Alimento": "Carne em peda\u00E7o ou fatias"
+    },
+    {
+      "Id": 4,
+      "Nome": "Frango",
+      "Tempo": 480,
+      "Potencia": 7,
+      "Strings": "%",
+      "Instrucao": "Interrompa o processo na metade...",
+      "Alimento": "Frango (qualquer corte)"
+    },
+    {
+      "Id": 5,
+      "Nome": "Feij\u00E3o",
+      "Tempo": 480,
+      "Potencia": 9,
+      "Strings": "\u002B",
+      "Instrucao": "Deixe o recipiente destampado...",
+      "Alimento": "Feij\u00E3o congelado"
+    }
+  ],
+  "Custom": []
+}
