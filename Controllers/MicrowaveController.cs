@@ -71,5 +71,14 @@ namespace MicrowaveAPI.Controllers
             MicrowaveData.Save(data);
             return NoContent();
         }
+        [HttpGet("check-string/{string}")]
+        public IActionResult CheckStringAvailability(string @string)
+        {
+            var data = MicrowaveData.Load();
+            var isUsed = data.Presets.Any(p => p.Strings == @string) || data.Custom.Any(c => c.Strings == @string);
+
+            return Ok(!isUsed);
+        }
     }
+    
 }
